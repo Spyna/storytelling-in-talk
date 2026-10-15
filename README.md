@@ -1,4 +1,4 @@
-# ciak-speaking
+# Storytelling in talks
 
 > Un talk non si spiega. Si racconta.
 
@@ -35,7 +35,7 @@ Node.js, perché il comando usa `npx`. Controlla con `node --version`. Se non lo
 Dalla cartella del tuo progetto:
 
 ```bash
-npx skills add Spyna/ciak-speaking
+npx skills add Spyna/storytelling-in-talk
 ```
 
 Il CLI ti chiede quali skill installare e per quali agent. Seleziona le tre skill e il tuo agent. Finito.
@@ -43,7 +43,7 @@ Il CLI ti chiede quali skill installare e per quali agent. Seleziona le tre skil
 Per averle in ogni progetto e non solo in quello corrente, aggiungi `-g`:
 
 ```bash
-npx skills add Spyna/ciak-speaking -g
+npx skills add Spyna/storytelling-in-talk -g
 ```
 
 ### Senza domande
@@ -51,7 +51,7 @@ npx skills add Spyna/ciak-speaking -g
 Tutte e tre le skill, per Claude Code, a livello globale, senza conferme:
 
 ```bash
-npx skills add Spyna/ciak-speaking -s '*' -a claude-code -g -y
+npx skills add Spyna/storytelling-in-talk -s '*' -a claude-code -g -y
 ```
 
 Cambia `claude-code` con il tuo agent. Puoi indicarne più di uno: `-a claude-code codex cursor`.
@@ -59,7 +59,7 @@ Cambia `claude-code` con il tuo agent. Puoi indicarne più di uno: `-a claude-co
 ### Solo una skill
 
 ```bash
-npx skills add Spyna/ciak-speaking -s talk-builder
+npx skills add Spyna/storytelling-in-talk -s talk-builder
 ```
 
 Se vuoi due skill su tre: `-s emogis storia`.
@@ -67,7 +67,7 @@ Se vuoi due skill su tre: `-s emogis storia`.
 ### Prima guarda, poi decidi
 
 ```bash
-npx skills add Spyna/ciak-speaking --list
+npx skills add Spyna/storytelling-in-talk --list
 ```
 
 Mostra le skill disponibili senza installare niente.
@@ -108,8 +108,8 @@ Qui non serve il terminale. Scarica lo zip da [speaking.spyna.it/skills](https:/
 Se non vuoi usare `npx`, clona il repo e copia le cartelle dentro `skills/` nella cartella skill del tuo agent (vedi la tabella sopra):
 
 ```bash
-git clone https://github.com/Spyna/ciak-speaking.git
-cp -r ciak-speaking/skills/* ~/.claude/skills/
+git clone https://github.com/Spyna/storytelling-in-talk.git
+cp -r storytelling-in-talk/skills/* ~/.claude/skills/
 ```
 
 ## Come si usano
@@ -128,9 +128,9 @@ Non devi imparare comandi. Parli con il tuo agent e lui capisce quale skill chia
 
 **`npx` non trovato.** Manca Node.js. Installalo e riprova.
 
-**Il repo non si scarica.** Controlla di essere online e di aver scritto bene `Spyna/ciak-speaking`. Se sei dietro un proxy aziendale, prova con l'URL completo: `npx skills add https://github.com/Spyna/ciak-speaking`.
+**Il repo non si scarica.** Controlla di essere online e di aver scritto bene `Spyna/storytelling-in-talk`. Se sei dietro un proxy aziendale, prova con l'URL completo: `npx skills add https://github.com/Spyna/storytelling-in-talk`.
 
-**Altro.** Apri una issue su [GitHub](https://github.com/Spyna/ciak-speaking/issues) o scrivi a [hello@spyna.it](mailto:hello@spyna.it).
+**Altro.** Apri una issue su [GitHub](https://github.com/Spyna/storytelling-in-talk/issues) o scrivi a [hello@spyna.it](mailto:hello@spyna.it).
 
 ## Un'ultima cosa sull'ordine
 
